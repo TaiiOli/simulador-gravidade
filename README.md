@@ -1,64 +1,29 @@
-# 🌌 AI-Powered Trajectory Prediction & Simulation
+# 🌌 AI Trajectory Prediction & Simulation
 
 ## Sobre o projeto
-Este projeto é um simulador interativo de sistemas gravitacionais combinado com um modelo de Machine Learning para previsão de trajetórias.
+Simulador interativo de sistemas gravitacionais com integração de Machine Learning para previsão de trajetórias.
 
-A aplicação integra:
-- Simulação física baseada em gravidade
-- Pipeline de dados (geração, tratamento e modelagem)
-- Modelo preditivo com XGBoost
-- Visualização interativa em 3D
+## O que o projeto faz
+- Simula comportamento físico (gravidade)
+- Gera dados automaticamente
+- Treina modelo de IA (XGBoost)
+- Prevê trajetórias futuras
+- Exibe tudo em visualização 3D interativa
 
-## Objetivo
-Demonstrar como dados históricos podem ser usados para prever comportamentos futuros em sistemas dinâmicos complexos.
-
-Esse tipo de abordagem pode ser aplicado em cenários reais como:
+## Aplicação em negócios
+Esse tipo de solução pode ser aplicado em:
 - Detecção de anomalias
-- Previsão de padrões comportamentais
-- Monitoramento de eventos em séries temporais (ex: transações financeiras)
+- Previsão de comportamento
+- Identificação de padrões em séries temporais (ex: fraudes)
 
-## Como funciona
-
-### 1. Simulação física
-- Cálculo de forças gravitacionais entre corpos
-- Atualização de posição e velocidade ao longo do tempo
-
-### 2. Engenharia de features
-- Criação de variáveis como:
-  - posição atual (x, y)
-  - lag de posição
-  - velocidade (vx, vy)
-
-### 3. Modelagem
-- Treinamento com XGBoost para prever a próxima posição
-- Divisão treino/teste
-- Avaliação com MSE
-
-### 4. Visualização
-- Gráfico 3D com Plotly
-- Comparação entre:
-  - trajetória real
-  - previsão da IA
-
-## Tecnologias utilizadas
+## Tecnologias
 - Python
 - Pandas / NumPy
 - XGBoost
 - Plotly
 - Streamlit
-- Scikit-learn
 
-## Resultados
-- Modelo capaz de prever trajetórias com baixo erro (MSE)
-- Demonstração visual clara do poder preditivo da IA
-
-## Possíveis aplicações
-- Detecção de fraudes (identificação de padrões anômalos)
-- Previsão de comportamento do usuário
-- Sistemas de recomendação
-- Monitoramento em tempo real
-
-## Como executar
+## ▶️ Como rodar
 ```bash
 
 git clone https://github.com/TaiiOli/simulador-gravidade.git
