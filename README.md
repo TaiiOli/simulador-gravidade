@@ -59,7 +59,10 @@ Esse tipo de abordagem pode ser aplicado em cenários reais como:
 - Monitoramento em tempo real
 
 ## Como executar
-bash
+```bash
+
 git clone https://github.com/TaiiOli/simulador-gravidade.git
+
 pip install -r requirements.txt
+
 streamlit run main.py
