@@ -60,5 +60,6 @@ Esse tipo de abordagem pode ser aplicado em cenários reais como:
 
 ## Como executar
 bash
+git clone https://github.com/TaiiOli/simulador-gravidade.git
 pip install -r requirements.txt
 streamlit run main.py
