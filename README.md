@@ -1,7 +1,7 @@
 # 🌌 AI Trajectory Prediction & Simulation
 
 ## Sobre o projeto
-Simulador interativo de sistemas gravitacionais com integração de Machine Learning para previsão de trajetórias.
+Este é um simulador interativo de sistemas gravitacionais combinado com um modelo de Machine Learning para previsão de trajetórias.
 
 ## O que o projeto faz
 - Simula comportamento físico (gravidade)
